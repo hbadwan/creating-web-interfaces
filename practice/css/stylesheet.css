@@ -1,0 +1,45 @@
+/* this is my super chill css */
+h1{}
+h2{
+    font-family:verdana, sans-serif;
+    color: #576D94;  
+}
+h3{
+font-size:17px;
+color: purple;
+}
+h4{
+font-size:16px;
+color: green;
+}
+h5{
+font-size:14px
+color:magenta;
+}
+h6{}
+
+p{
+    font-family: Garamond, serif;
+    font-size:18px;
+    color:#4a4943;
+}
+
+p
+{color:red;
+font-size:20px;
+}
+a{
+    color:purple;
+    font-size:50px;
+    font-family:sans-serif;
+}
+img{
+    border: 20px, solid;
+    color:#4682b4
+    height:100px;
+    width: 100px;
+
+}
+    
+
+span {color:blue;}
