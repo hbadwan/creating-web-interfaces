@@ -1,0 +1,30 @@
+h1{
+    height:45px;
+    text-align:center;
+}
+
+body {
+	
+	font-family: helvetica, arial, sans-serif;
+
+}
+
+h1 {
+    color:#EE5A3F;
+}
+
+h2 { 
+    color:#EE5A3F;
+}
+
+.big-box{
+    background-color: #8FDAD6;
+    font-size:40px;
+    width: 100%;
+    text-align:center;
+    
+}
+
+.image {
+    margin: 30px;
+}

@@ -1,0 +1,74 @@
+/*
+Theme Name: Now and Then CO
+Theme URI: http://www.nowandthenco.com
+Description: Site built by <a href="http://designbyjulian.com">J. Donaldson</a>.
+Version: 1.0
+Author: Julian Donaldson
+Author URI: http://designbyjulian.com
+
+*/
+
+
+@charset "UTF-8";
+html,body { margin:60px 0; color:#444;}
+
+img{border:none;}
+
+#content h1{ font-family: 'GeosansLightRegular'; font-size:50px; text-transform:uppercase;}
+
+#content h3{ font-size:24px; letter-spacing:3px; font-weight:lighter;}
+
+#wrapper{ width:900px; height:auto; margin:0 auto;}
+
+#menu{ padding:0 0 10px 0; border-bottom:#999 1px solid; text-align:center; }
+
+ul{ padding:0;  margin:0;}
+
+#navmenu li{  display:inline; list-style-type:none; padding:5px; letter-spacing:-1px; text-transform:uppercase; font-weight:lighter;color:#444; font-family: 'GeosansLightRegular';}
+
+div#content{ width:900px; height:auto; min-height:400px; overflow:hidden; margin:10px 0 10px 0; }
+
+div#front{ width:900px; height:auto; min-height:400px; overflow:hidden; margin:0 auto; text-align:center;}
+
+div#main-content{vertical-align:middle; padding:100px 0 0 0;}
+
+.foot-left{float:left; width:50%; height:20px;}
+
+.foot-right{float:right; width:50%; text-align:right; height:20px;}
+
+.foot-right img{padding:0 0 0 3px}
+
+#footer{ width:900px; height:auto; margin:0; padding:10px 0 0 0; border-top:#999 1px solid; text-align:left; overflow:hidden;}
+
+.standard{font-size:11px; color:#444; font:Georgia, "Times New Roman", Times, serif !important;}
+
+/****Type****/
+
+a:link {color:#444; text-decoration:none;}      /* unvisited link */
+a:visited {color:#444; text-decoration:none;}  /* visited link */
+a:hover {color:#666; text-decoration:none;}  /* mouse over link */
+a:active {color:#666; text-decoration:none;}  /* selected link */ 
+
+@font-face {
+    font-family: 'GeosansLightMediumItalic';
+    src: url('fonts/geosanslight-oblique-webfont.eot');
+    src: url('fonts/geosanslight-oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/geosanslight-oblique-webfont.woff') format('woff'),
+         url('fonts/geosanslight-oblique-webfont.ttf') format('truetype'),
+         url('fonts/geosanslight-oblique-webfont.svg#GeosansLightMediumItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GeosansLightRegular';
+    src: url('fonts/geosanslight-webfont.eot');
+    src: url('fonts/geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/geosanslight-webfont.woff') format('woff'),
+         url('fonts/geosanslight-webfont.ttf') format('truetype'),
+         url('fonts/geosanslight-webfont.svg#GeosansLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
